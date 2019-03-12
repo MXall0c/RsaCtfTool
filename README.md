@@ -15,4 +15,4 @@ docker run -it rsacrack
 docker run -it -v $(pwd)/:/data --entrypoint "/bin/bash" rsacrack
 
 #to forcibly get into bash, override entrypoint:
-docker run -i -t --entrypoint "/bin/bash" use-this-hashtopolis
+docker run -i -t --entrypoint "/bin/bash" rsacrack
